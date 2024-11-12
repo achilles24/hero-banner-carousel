@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,8 +47,9 @@
     <script src="takeover.js"></script>
   </body>
 </html>
+```
 
-
+```javascript
 document.addEventListener("scroll", function () {
   const sections = document.querySelectorAll(".image-section");
 
@@ -84,7 +86,8 @@ document.addEventListener("scroll", function () {
     }
   });
 });
-
+```
+```css
 * {
   margin: 0;
   padding: 0;
@@ -158,3 +161,4 @@ header {
   opacity: 0;
   transition: opacity 0.3s, bottom 0.3s;
 }
+```
